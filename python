@@ -1,0 +1,15 @@
+
+class Car:
+    def __init__(self, model, year):
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print("Car Model:", self.model)
+        print("Year:", self.year)
+
+
+# Object banake test karte hain
+my_car = Car("Rolls Royce", 2024)
+my_car.display_info()
+
